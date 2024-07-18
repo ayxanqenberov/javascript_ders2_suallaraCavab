@@ -34,6 +34,12 @@ if (result_division == 0) {
 result_division == 0 ? console.log("cut reqemdir(ternary)") : console.log("tek reqemdir(ternary)");
 
 // 5) == ve === arasindaki ferq nov ferqidir 
+let number10 = 5;
+let number11 = "5";
+let result = number10 == number11;
+console.log(typeof result);
+let result2 = number10 === number11
+console.log(typeof result2);
 
 // 6) !==operatoru 10a beraber olub-olmadigini yoxlayan ifade
 var number_10 = 1;
@@ -50,8 +56,6 @@ if (number_check >= 6 && number_check <= 9) {
     console.log("Diqqet !!! Bu eded 5 ile 10un arasinda yerlesmir");
 }
 // 8) ??
-let user = "";
-
 // 9) boolean deyerinin tersi
 let class1 = true;
 if (class1 !== true) {
@@ -86,7 +90,7 @@ if (numbers > 0 && num_result == 1) {
 }else{
     console.log("cut ve musbet oldugunu oyrenmek ucun bir reqem yazin");
 }
-// username ve password 
+// 13) username ve password 
 let alert1 = prompt("Zehmet olmasa istifadeci adii yazin")
 let username = "Ruhicenet";
 let alert2 = prompt("Zehmet olmasa parol yazin")
@@ -101,4 +105,13 @@ if (alert2 == password) {
 } else {
     console.log("teyin olunmadi");
 }
+// 14) musbet ve 0 oldugunu yoxlayan ve muvafiq mesaj qaytaran switch-case
+// var num = prompt("reqem daxil edin")
+// switch (num) {
+//     case "5":
+//         console.log();
+//         break;
 
+//     default:
+//         break;
+// }
